@@ -1,0 +1,17 @@
+{
+  "binary": "original FIX06 GOLD BIN",
+  "binary_sha256": "aeabcb0d77a8dd1710293e774ea05c5f5923b80943cefbe28b2928a2adaa0d7b",
+  "matching_original_elf_sha256": "904bfb3aaba6e8890bc27c6638209151a48d7cbf94aa2d04c951e1d3977136eb",
+  "elf_descriptor_match": true,
+  "font_symbols": [
+    "3c06f7a4 00000010 D lgfx::v1::fonts::Font0",
+    "3c06f7b4 00000003 d lgfx::v1::fonts::font0_info",
+    "3c06f7b7 00000500 d lgfx::v1::fonts::font"
+  ],
+  "font_bytes": 1280,
+  "embedded_font_byte_equal_to_glcdfont_h": true,
+  "font_license": "Adafruit BSD-style, Copyright 2012 Adafruit Industries, full notice retained",
+  "uncertain_optional_font_or_picture_symbols": [],
+  "application_graphics": "primitive lines/rectangles/text; no application bitmap use",
+  "UI01_UI02": "MIXU primitive HUD/28-byte own logo masks and default Font0; no external logo bitmap embedded"
+}

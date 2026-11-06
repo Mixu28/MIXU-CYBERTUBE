@@ -1,0 +1,48 @@
+{
+  "M5Cardputer": {
+    "url": "https://github.com/m5stack/M5Cardputer",
+    "commit": "bf64d3178ab43928fa02365fbe3937cec99716ad",
+    "license": "MIT + embedded Adafruit BSD",
+    "version": "1.1.1"
+  },
+  "M5Unified": {
+    "url": "https://github.com/m5stack/M5Unified",
+    "commit": "44952cb8e4ac88bf04ad23b9dfd6f4b05c788348",
+    "license": "MIT",
+    "version": "0.2.29"
+  },
+  "M5GFX": {
+    "url": "https://github.com/m5stack/M5GFX",
+    "commit": "28d47949bdc84f30881623476f555398e2194313",
+    "license": "MIT + embedded component notices",
+    "version": "0.3.0"
+  },
+  "IRremote": {
+    "url": "https://github.com/Arduino-IRremote/Arduino-IRremote",
+    "commit": "c4ec014400ccf5a8b3678d5f33e4cc17eca29d23",
+    "license": "MIT",
+    "version": "4.7.1"
+  },
+  "Cardtube_reference_only": {
+    "url": "https://github.com/filipo3221/Cardtube",
+    "commit": "dd14bd07c3e08a9c1eed0205966ae3c9882c36ac",
+    "license": "proprietary; not incorporated"
+  },
+  "Launcher_reference_only": {
+    "url": "https://github.com/bmorcelli/Launcher",
+    "commit": "ce2854f10ce0e330867c6d57fdecb2844cd28c5a",
+    "license": "reference only; no code incorporated"
+  },
+  "platform": {
+    "url": "https://github.com/pioarduino/platform-espressif32/releases/download/55.03.311/platform-espressif32.zip",
+    "version": "55.3.311",
+    "arduino": "3.3.11",
+    "sdk": "5.5.5+sha.b774170ff46",
+    "compiler": "14.2.0+20260121"
+  },
+  "ffmpeg_wheel": {
+    "version": "0.8.1",
+    "ffmpeg": "9.0.2",
+    "sha256": "f27ca4cb85e2d4946deedbce1a81245dfd942a2bcf94b53676fb3956aa95bf1b"
+  }
+}

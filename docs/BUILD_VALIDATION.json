@@ -1,0 +1,41 @@
+{
+  "firmware_builds": {
+    "fix06": {
+      "passed": true,
+      "seconds": 60.04,
+      "ram_bytes": 137460,
+      "flash_sections_bytes": 569679,
+      "offline_dependency_override": true
+    },
+    "ui01": {
+      "passed": true,
+      "seconds": 56.07,
+      "ram_bytes": 137460,
+      "flash_sections_bytes": 570607,
+      "offline_dependency_override": true,
+      "hardware_tested": false
+    },
+    "ui02": {
+      "passed": true,
+      "seconds": 55.04,
+      "ram_bytes": 137460,
+      "flash_sections_bytes": 570947,
+      "offline_dependency_override": true,
+      "hardware_tested": false
+    }
+  },
+  "offline_override": "remote lib_deps were replaced only inside the private validation worker by exact preserved local upstream source trees; fresh network fetching is not asserted",
+  "converter_tests": {
+    "passed": true,
+    "tests": 10,
+    "errors": 0,
+    "failures": 0
+  },
+  "converter_test_adapter": "only legacy EXE identity expectation updated to new recorded EXE SHA; functional assertions unchanged",
+  "hardware": "FIX06 user-confirmed as in HARDWARE_TESTS.md; no new agent device access; UI01/UI02 offline only",
+  "publication_decisions": {
+    "A": "READY source-only listed tree",
+    "B": "BLOCKED firmware binary",
+    "C": "READY new GITHUB03 package only"
+  }
+}

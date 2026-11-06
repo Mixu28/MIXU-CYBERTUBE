@@ -1,0 +1,36 @@
+# Local builds and tools
+**/.pio/
+**/.pio-core/
+**/.tmp/
+**/__pycache__/
+*.pyc
+**/artifacts/
+**/logs/
+**/downloads/
+**/output/
+# User media
+*.mcv
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.mp3
+*.wav
+*.pcm
+# Secrets and editor-local configuration
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*.json
+.vscode/
+.idea/
+# Release assets are prepared outside this source tree.
+
+# Source-only edition local validator outputs
+**/.build-validator/
+*.o
+*.map
+converter_FIX08/validate_mcv.exe

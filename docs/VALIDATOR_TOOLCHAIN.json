@@ -1,0 +1,135 @@
+{
+  "gcc_version": "16.2.0",
+  "target": "x86_64-w64-mingw32",
+  "gcc_sha256": "222b8da432c19458420bd16956a64e35a95b7af185c73e1c99c5e1f2f36a7861",
+  "gxx_sha256": "ee0d178ada2e139b53fb81f46ba55ffbcdda8228ef691afed93692d7fc51a316",
+  "source_sha256": {
+    "native/jpeg_decode.h": "1fa4aa8a2d4df92d372c9ed77ffbe8c64cae56cb016bf0a30081d54e1665ec0d",
+    "native/lgfx/utility/lgfx_tjpgd.c": "0d2d3c59c0537ae9a1a8b50e4c85d07361017f08ad7375b38a412baf93450215",
+    "native/lgfx/utility/lgfx_tjpgd.h": "ccac2af3e05186da984b62e4445a2aa502e7c4bd0f5119cb4f67770667435295",
+    "native/mcv_reader.h": "e8a97f1266d1eb174287896246a6ce869d1fcd335155be9fa98c0a3dea59cf8c",
+    "native/validate_mcv.cpp": "14fa0b9ff98df7ae1e2a988777ae9960194060d7f6285f81a53d5f490eef61f3"
+  },
+  "flags": [
+    "-O2",
+    "-fno-ident",
+    "-frandom-seed=mixu-fix08-github03",
+    "-std=c11/-std=c++17",
+    "-municode",
+    "-static",
+    "-static-libgcc",
+    "-static-libstdc++",
+    "--no-insert-timestamp",
+    "--build-id=none",
+    "--strip-all",
+    "path prefix maps to ."
+  ],
+  "source_date_epoch": "1609459200",
+  "validator_sha256": "cacaa1d6321fd3563a6d9311a898a12cc2496a72a6bb412e33800506a75ba2aa",
+  "validator_bytes": 1129984,
+  "static_archives_with_pulled_members": [
+    {
+      "name": "libkernel32.a",
+      "sha256": "db620a4166a9774b293d56beb15aa2979aea4c49ac684e2f791044db7d5d7b89",
+      "bytes": 1391318,
+      "package": "mingw-w64-ucrt-x86_64-crt",
+      "version": "14.0.0.r426.g4564ee4b5-1",
+      "applicable_terms": "MinGW-w64 ZPL-2.1 / per-file BSD/public-domain terms in runtime notice collection"
+    },
+    {
+      "name": "libmingw32.a",
+      "sha256": "14f567e7f181903f7191bcf8fe35cfc7f1db97eb8b98b0474e152151c6a8e526",
+      "bytes": 50850,
+      "package": "mingw-w64-ucrt-x86_64-crt",
+      "version": "14.0.0.r426.g4564ee4b5-1",
+      "applicable_terms": "MinGW-w64 ZPL-2.1 / per-file BSD/public-domain terms in runtime notice collection"
+    },
+    {
+      "name": "libmingwex.a",
+      "sha256": "d6a9376c50b813b18823ca9243bc8aea733418df6fda152ba23437130c732b04",
+      "bytes": 555030,
+      "package": "mingw-w64-ucrt-x86_64-crt",
+      "version": "14.0.0.r426.g4564ee4b5-1",
+      "applicable_terms": "MinGW-w64 ZPL-2.1 / per-file BSD/public-domain terms in runtime notice collection"
+    },
+    {
+      "name": "libmsvcrt.a",
+      "sha256": "7a34bc8e1517bab3646d7e6c89a4dd47961a2df4c43423a40d518d1392479b23",
+      "bytes": 2095160,
+      "package": "mingw-w64-ucrt-x86_64-crt",
+      "version": "14.0.0.r426.g4564ee4b5-1",
+      "applicable_terms": "MinGW-w64 ZPL-2.1 / per-file BSD/public-domain terms in runtime notice collection"
+    },
+    {
+      "name": "libpthread.a",
+      "sha256": "4847aee76337c371075c39ed97b0c97c515c2b094d2f45168feaed84aeeb14f9",
+      "bytes": 97238,
+      "package": "mingw-w64-ucrt-x86_64-winpthreads",
+      "version": "14.0.0.r426.g4564ee4b5-1",
+      "applicable_terms": "winpthreads combined MIT/BSD notices in WINPTHREADS_COPYING.txt"
+    },
+    {
+      "name": "libstdc++.a",
+      "sha256": "de4beefb71e8330c589336997c6d485666374bd762fa3c07dc47369e29dfaf94",
+      "bytes": 8317484,
+      "package": "mingw-w64-ucrt-x86_64-gcc",
+      "version": "16.2.0-5",
+      "applicable_terms": "GPL-3.0-or-later WITH GCC-exception-3.1"
+    },
+    {
+      "name": "libgcc.a",
+      "sha256": "60705c79d300bffbd5d69e2df8d74b787d27087e11b5164e320e123cfa04d896",
+      "bytes": 3030766,
+      "package": "mingw-w64-ucrt-x86_64-gcc",
+      "version": "16.2.0-5",
+      "applicable_terms": "GPL-3.0-or-later WITH GCC-exception-3.1"
+    },
+    {
+      "name": "libgcc_eh.a",
+      "sha256": "f21c3ac690d2edce9709da373fb6bc13142047013c47f66f5291e4b7d526b186",
+      "bytes": 11726,
+      "package": "mingw-w64-ucrt-x86_64-gcc",
+      "version": "16.2.0-5",
+      "applicable_terms": "GPL-3.0-or-later WITH GCC-exception-3.1"
+    }
+  ],
+  "system_dll_imports": [
+    "KERNEL32.dll",
+    "api-ms-win-crt-convert-l1-1-0.dll",
+    "api-ms-win-crt-environment-l1-1-0.dll",
+    "api-ms-win-crt-filesystem-l1-1-0.dll",
+    "api-ms-win-crt-heap-l1-1-0.dll",
+    "api-ms-win-crt-locale-l1-1-0.dll",
+    "api-ms-win-crt-math-l1-1-0.dll",
+    "api-ms-win-crt-private-l1-1-0.dll",
+    "api-ms-win-crt-runtime-l1-1-0.dll",
+    "api-ms-win-crt-stdio-l1-1-0.dll",
+    "api-ms-win-crt-string-l1-1-0.dll",
+    "api-ms-win-crt-time-l1-1-0.dll",
+    "api-ms-win-crt-utility-l1-1-0.dll"
+  ],
+  "dlls_distributed": false,
+  "compilation_process": "Plain original C/C++ through unmodified installed GCC, no requested LTO or custom GCC plugins; native object code",
+  "package_versions": [
+    {
+      "package": "mingw-w64-ucrt-x86_64-binutils",
+      "version": "2.47-4"
+    },
+    {
+      "package": "mingw-w64-ucrt-x86_64-crt",
+      "version": "14.0.0.r426.g4564ee4b5-1"
+    },
+    {
+      "package": "mingw-w64-ucrt-x86_64-gcc",
+      "version": "16.2.0-5"
+    },
+    {
+      "package": "mingw-w64-ucrt-x86_64-headers",
+      "version": "14.0.0.r426.g4564ee4b5-1"
+    },
+    {
+      "package": "mingw-w64-ucrt-x86_64-winpthreads",
+      "version": "14.0.0.r426.g4564ee4b5-1"
+    }
+  ]
+}

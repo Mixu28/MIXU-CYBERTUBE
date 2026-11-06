@@ -1,0 +1,3 @@
+# Optional lokale Voraussetzung fuer spaetere, vom Benutzer gestartete Downloads.
+# Offline-Tests wurden mit bereits installiertem yt-dlp 2026.10.26 durchgefuehrt.
+yt-dlp>=2026.10.26
